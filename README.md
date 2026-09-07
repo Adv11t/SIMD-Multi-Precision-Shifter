@@ -110,6 +110,15 @@ The `dir` signal determines shift direction:
 - `0`: Left shift
 - `1`: Right shift
 
+- ### 6. Hardware Components
+
+The architecture consists of:
+
+- 4 × 8-bit synchronous shifters
+- Combinational logic (MUX + OR gates) for boundary merging
+- 32-bit register for intermediate storage
+- Control logic driven by `mode`, `dir`, and `shift_amount`
+
 Both directions are supported symmetrically by:
 
 - Reversing data flow between adjacent blocks
