@@ -18,7 +18,7 @@ This separation reduces complexity compared to a full 32-bit barrel shifter whil
 
 ### 2. 8-Bit Shifter Unit
 
-Each 8-bit block **(Figure 1)** is implemented as a synchronous shifter:
+Each 8-bit block is implemented as a synchronous shifter:
 
 - **Inputs:** `in[7:0], shift[2:0], dir, clk`
 - **Output:** `out[7:0]`
