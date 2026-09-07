@@ -110,7 +110,7 @@ The `dir` signal determines shift direction:
 - `0`: Left shift
 - `1`: Right shift
 
-- ### 6. Hardware Components
+### 6. Hardware Components
 
 The architecture consists of:
 
